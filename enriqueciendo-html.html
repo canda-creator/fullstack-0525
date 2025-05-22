@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Permite tener simbolos especiales -->
+    <meta charset="UTF-8">
+    <!-- Que se adapte en cualquier dispositivo en el que esté -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto HTML de Digital House</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Links: enlaces</h1>
+    <!-- URL ABSOLUTA: nos servirá para visitar webs externas -->
+    <a href="http://www.google.com.ar" target="_blank">Google</a><br>
+    <!-- URL RELATIVA: nos va a servir para navegar, es una dirección basandonos donde estamos parados -->
+    <a href="etiquetas-texto.html">Ir a archivo interno</a>
+    <!-- Utilizaremos el prefijo mailto: para poder indicar que se trata de un mail -->
+    <!-- <br>
+    <a href="mailto:candelaalfonso13@gmail.com">Enviar Email</a>
+    <a href="http://www.google.com.ar"><img
+            src="https://i.pinimg.com/736x/ae/74/f6/ae74f6f28d37f527cafea5dcfdac77e1.jpg" alt="Beomgyu"
+            width="300px"></a> -->
+    <p>Este va a ser un enlace <a href="etiquetas-texto.html">Click</a></p>
+
+    <h2>Imágenes en HTML</h2>
+    <!-- SRC significa source que es fuente en inglés -->
+    <!-- ALT es alternative title (título alternativo) una descripción para mejorar la accesibilidad -->
+    <img src="gyu.jpg" alt="imagen de Beomgyu" height="300px">
+
+    <h2>Tablas en HTML</h2>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+
+    <table> <!--Etiqueta de table-->
+        <colgroup>
+            <col span="1" style="background-color: rgb(66, 66, 224);">
+        </colgroup>
+        <tr> <!--Etiqueta de fila (row)-->
+            <th>Alumnos</th> <!-- Etiqueta de table header (encabezado de tabla)-->
+            <th colspan="2">Nombre y Apellido</th> <!--Colspan nos ayudará a extender horizontalmente-->
+            <th>Notas</th>
+        </tr>
+
+        <tr>
+            <td>1</td> <!-- Etiqueta de table data (información de tabla)-->
+            <td>Pedro</td>
+            <td>Perez</td>
+            <td>8</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Rodrigo</td>
+            <td>Gonzalez</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Humberto</td>
+            <td rowspan="2">Velez</td> <!-- Con rowspan podemos hacer una extensión vertical-->
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Cecilia</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <h2>Listas en HTML</h2>
+    <h3>Listas desordenadas</h3>
+
+    <h4>Comidas que me gustan</h4>
+    <ul> <!--UNORDER LISTS-->
+        <li>Tacos mexicanos</li> <!--ELEMENTO de la lista-->
+        <li>Asadi Argentino</li> <!--ELEMENTO de la lista-->
+        <li>Arepas Colombianas y Venezolanas</li> <!--ELEMENTO de la lista-->
+    </ul>
+
+    <h3>Listas ordenadas</h3>
+
+    <h4>Actividad durante el día</h4>
+
+    <ol> <!--ORDERED LISTS-->
+        <li>Levantamos</li> <!--ELEMENTO de la lista-->
+        <li>Vamos a la facultad</li> <!--ELEMENTO de la lista-->
+        <li>Volvemos</li> <!--ELEMENTO de la lista-->
+        <li>Estudiamos</li> <!--ELEMENTO de la lista-->
+        <li>Dormir</li> <!--ELEMENTO de la lista-->
+    </ol>
+
+    <h2>Elementos de bloque y elementos de línea</h2>
+    <h3>Elementos de bloque</h3>
+    <!-- <div>
+    <p>
+    <h1> <h6>
+    <section>
+    <article>
+    <header>
+    <footer>
+    <nav>
+    <aside>
+    <ul> <ol>
+    <li>
+    <form>
+    <table>
+    <blockquote>
+    <hr> -->
+    <h2>Elementos de linea</h2>
+    <!-- <span>
+    <a>
+    <strong>, <b>
+    <em>, <i>
+    <img>
+    <label>
+    <input>
+    <select>
+    <textarea>
+    <abbr> <cite>
+    <code>
+    <br> -->
+
+    <h2>DIV y SPAN</h2>
+
+    <div style="background-color: blue; color: white;">
+        <h2>Titulo de un tema</h2>
+        <p>Párrafo sobre ese tema</p>
+        <span><b>Esta información es relevante</b> <i>Más información</i></span>
+    </div>
+
+    <div style="background-color: red;">
+        <h2>Otro tema</h2>
+        <p>Párrafo relacionado con el otro tema</p>
+    </div>
+</body>
+
+</html>

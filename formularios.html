@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Permite tener simbolos especiales -->
+    <meta charset="UTF-8">
+    <!-- Que se adapte en cualquier dispositivo en el que esté -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto HTML de Digital House</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Formularios en HTML</h1>
+    <form action="#" method="">
+        <!-- INPUT TYPE TEXT -->
+        <h4>Datos Personales</h4><br>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido">
+    </form>
+    <!-- INPUT RADIO BUTTON -->
+    <h4>Situación laboral</h4><br>
+    <label for="empleado">Empleado</label>
+    <input type="radio" name="situacion-laboral" id="empleado">
+    <label for="desempleado">Desempleado</label>
+    <input type="radio" name="situacion-laboral" id="desempleado">
+    <label for="busqueda">En búsqueda activa</label>
+    <input type="radio" name="situacion-laboral" id="busqueda">
+    <!-- INPUT TYPE CHECKBOX -->
+    <h4>Tecnologías que manejas</h4>
+    <label for="html">HTML</label>
+    <input type="checkbox" name="tecnologias" id="html" value="1">
+    <label for="css">CSS</label>
+    <input type="checkbox" name="tecnologias" id="css" value="2"> <label for="javascript">JAVASCRIPT</label>
+    <input type="checkbox" name="tecnologias" id="javascript" value="3">
+    <label for="react">REACT</label>
+    <input type="checkbox" name="tecnologias" id="react" value="4">
+    <!-- INPUT TYPE SUBMIT -->
+    <br>
+    <input type="submit" value="Enviar">
+
+    <!-- TEXTAREA -->
+    <H2>Textarea</H2>
+    <form method="post">
+        <h4>Datos Personales</h4><br>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido">
+    </form>
+
+    <h4>Situación laboral</h4><br>
+    <label for="empleado">Empleado</label>
+    <input type="radio" name="situacion-laboral" id="empleado">
+    <label for="desempleado">Desempleado</label>
+    <input type="radio" name="situacion-laboral" id="desempleado">
+    <label for="busqueda">En búsqueda activa</label>
+    <input type="radio" name="situacion-laboral" id="busqueda">
+
+    <h4>Tecnologías que manejas</h4>
+    <label for="html">HTML</label>
+    <input type="checkbox" name="tecnologias" id="html" value="1">
+    <label for="css">CSS</label>
+    <input type="checkbox" name="tecnologias" id="css" value="2"> <label for="javascript">JAVASCRIPT</label>
+    <input type="checkbox" name="tecnologias" id="javascript" value="3">
+    <label for="react">REACT</label>
+    <input type="checkbox" name="tecnologias" id="react" value="4">
+    <br>
+    <label for="motivo">Motivo:</label>
+    <br>
+    <textarea name="motivo" id="motivo" cols="50" rows="5"></textarea>
+    <br>
+    <input type="submit" value="Enviar">
+
+    <!-- Email, password y reset -->
+    <h2>Email, password y reset</h2>
+    <form action="#" method="get">
+        <!-- INPUT TYPE TEXT -->
+        <h4>Login</h4><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <input type="submit" value="Entrar"><br>
+        <input type="reset" value="Limpiar">
+
+
+        <!-- OTROS INPUTS DISPONIBLES -->
+        <h2>Otros inputs disponibles</h2>
+        <form method="get">
+            <label for="file">Seleccioná un archivo:</label>
+            <input type="file" name="file" id="file" min="1" max="5">
+            <br>
+            <input type="submit" value="Enviar"><br>
+        </form>
+</body>
+
+</html>
