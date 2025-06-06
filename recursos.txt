@@ -1,0 +1,14 @@
+Para aprender HTML
+https://lenguajehtml.com/html/
+https://www.w3schools.com/
+https://developer.mozilla.org/en-US/
+
+Impresión 3D (Ejemplos para los bocetos)
+https://www.printables.com/?lang=es
+
+Repositorios de GitHub
+https://github.com/Josemiranda989/fullstack-0525
+https://github.com/Josemiranda989/DPFS_impreNode/
+
+Trello para organización
+https://trello.com/b/G95iKgrE/imprenode

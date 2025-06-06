@@ -1,0 +1,33 @@
+Etiquetas de bloque
+
+<div>: Div contenedor para estructurar la página.
+<p>: Párrafo de texto.
+<h1> a <h6>: Encabezados de niveles 1 a 6.
+<ol>: Lista ordenada.
+<ul>: Lista no ordenada.
+<address>: Contiene información de contacto.
+<article>: Secciones independientes de contenido.
+<aside>: Contenido relacionado con el principal, pero secundario.
+<nav>: Contiene el menú de navegación.
+<section>: Agrupación de elementos temáticos.
+<table>: Tabla de datos.
+<figure>: Contenido como imágenes o ilustraciones.
+<pre>: Contenido preformateado (mantiene los espacios y saltos de línea).
+<header>: Contiene el encabezado del documento.
+<footer>: Contiene el pie del documento.
+
+Etiquetas de línea
+
+<span>: Contenedor para pequeños fragmentos de texto.
+<a>: Enlace hipertexto.
+<img>: Imagen.
+<b>: Texto en negrita.
+<i>: Texto en cursiva.
+<strong>: Texto con importancia destacada.
+<em>: Texto con énfasis.
+<br>: Salto de línea.
+<button>: Botón interactivo.
+<input>: Campo de entrada (texto, número, etc.).
+<select>: Lista desplegable.
+<textarea>: Área de texto multilínea.
+<audio>: Contenido de audio.

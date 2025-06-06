@@ -1,0 +1,19 @@
+ls = me da toda la lista de los archivos de la carpeta
+
+cd .. = va para atrás
+
+code . = me abre el vscode
+
+mkdir = me crea una carpeta
+
+pwd = me muestra donde estoy ubicada
+
+rm = remover un archivo
+
+rmdir = remover una carpeta
+
+clear = limpiar la comanda
+
+git log = quién hizo los cambios y la fecha
+
+git branch -M main = cambia la rama
